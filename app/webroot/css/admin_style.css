@@ -1,0 +1,2001 @@
+root { 
+    display: block;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.all{
+    margin: 0;
+    padding: 0;
+    width: 1058px !important;
+    margin: 0 auto !important;
+    overflow: hidden !important;
+}
+
+.adm_menu{
+    width: 1058px;
+    float: left;
+}
+
+.adm_menu ul{
+    float: left;
+    padding-left: 23px;
+}
+
+.adm_menu ul li{
+    float:left;
+    list-style-type: none;
+    border-right: 1px solid #9a9c9b;
+    height: 12px;
+}
+ 
+.current
+{
+    color:#fff !important;
+}
+
+.adm_menu ul li:last-child
+{
+    border: none !important;
+}
+
+.adm_menu ul li a{
+    float: left;
+    text-decoration: none;
+    color: #9a9c9b;
+    margin-top: -2px;
+    font-family: Arial;
+    font-size: 14px;
+}
+
+.adm_menu ul li a:hover{
+   color: #fff;
+}
+
+.menu1{
+    height: 63px;
+    background-color: #000;
+    width: 1058px;
+  }
+
+.menu1 li{
+   text-transform: uppercase;
+   margin-top: 25px;
+   margin-right: 5px;
+   padding-right: 5px;
+  }
+  
+.menu2{
+   background-color: #565656;
+   width: 1058px;
+   height: 34px;
+  }
+  
+.menu2 li{
+   text-transform: uppercase;
+   margin-top: 10px;
+   margin-right: 5px;
+   padding-right: 5px;
+   text-transform: none;
+  }
+  
+  .select_div
+  {
+      width: 1056px;
+      height: 58px;
+      border: 1px solid #adadad;
+      float: left;
+      margin-top: 25px;
+  }
+  
+  .select_div a{
+      margin-top: 15px;
+      margin-left: 23px;
+      float: left;
+      font-family: Arial;
+      font-size: 14px;
+      color: #000;
+      text-decoration: underline;
+      cursor: pointer;
+  }
+  
+  .sel_a{
+      border-right: 1px solid #000;
+      padding-right: 10px;
+      margin-right: -13px;
+      
+  }
+  
+  .select_div div{
+      float: right;
+      margin-top: 15px;
+      margin-right: 30px;
+  }
+  
+  .select_div div a{
+      color:#ca2e3c;
+      font-family: Arial;
+      font-size: 13px;
+      float: left;
+      font-weight: bold;
+      margin-top: 3px;
+  }
+    
+  .on_gray
+  {
+      background-color: #f0f0f0;
+      color: #a0a0a0;
+     /* padding: 8px;*/
+     width: 27px;
+     height: 27px;
+     float: left;
+     text-align: center;
+     line-height: 27px;
+      font-size: 12px;
+      font-family: Arial;
+      font-weight: bold;
+      cursor: pointer;
+  }
+  
+  .on_green
+  {
+      background-color: #82ab00;
+      color: #fff;
+     /* padding: 8px;*/
+     width: 27px;
+     height: 27px;
+     float: left;
+     text-align: center;
+     line-height: 27px;
+      font-size: 12px;
+      font-family: Arial;
+      font-weight: bold;
+      cursor: pointer;
+  }
+  
+  .off{
+      color: #fff !important;
+      text-decoration: none;
+      margin-left: 3px !important;
+      margin-top: 0px !important;
+  }
+  
+  .on
+  {
+      text-decoration: none;
+      margin-left: 4px !important;
+      margin-top: 0px !important;
+      color: #a0a0a0 !important;
+  }
+  
+  .off1{
+      color: #a0a0a0 !important;
+      text-decoration: none;
+      margin-left: 3px !important;
+      margin-top: 0px !important;
+  }
+  
+  .on1
+  {
+      text-decoration: none;
+      margin-left: 4px !important;
+      margin-top: 0px !important;
+      color: #fff !important;
+  }
+  
+  .off_red
+  {
+      background-color: #cd1017;
+      color: #fff;
+     /* padding: 8px;*/
+     width: 27px;
+     height: 27px;
+     float: left;
+     text-align: center;
+     line-height: 27px;
+     font-family: Arial;
+      font-size: 12px;
+      font-weight: bold;
+      cursor: pointer;
+  }
+  
+  .off_gray
+  {
+      background-color: #f0f0f0;
+      color: #a0a0a0;
+     /* padding: 8px;*/
+     width: 27px;
+     height: 27px;
+     float: left;
+     text-align: center;
+     line-height: 27px;
+     font-family: Arial;
+      font-size: 12px;
+      font-weight: bold;
+      cursor: pointer;
+      
+  }  
+  
+  
+  .table_title
+  {
+      width: 878px;
+      float: left;
+      margin-top: 20px;
+      font-family: Arial;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+      font-size: 14px;
+      color: #6f6f6f;
+  }
+  
+  .a_id{
+      width: 35px;
+      padding-left: 70px;
+      float: left;
+      color: #6f6f6f;
+      font-size: 14px;
+  }
+  
+  .a_name{
+      width: 345px;
+      text-align: center;
+      float: left;
+      color: #6f6f6f;
+      font-size: 14px;
+  }
+  
+  .a_icon_name{
+      width: 410px;
+      text-align: center;
+      float: left;
+      color: #6f6f6f;
+      font-size: 14px;
+  }
+  
+  .a_cuisine_name
+  {
+      width:585px;
+      padding-left: 100px;
+      float: left;
+      color: #6f6f6f;
+      font-size: 14px;
+  }
+  
+  .a_users
+  {
+      width: 350px;
+      text-align: center;
+      float: left;
+      color: #6f6f6f;
+      font-size: 14px;
+  }
+  
+  .a_email
+  {
+      width: 300px;
+      text-align: center;
+      float: left;
+      color: #6f6f6f;
+      font-size: 14px;
+  }
+  
+  .a_date
+  {
+      width: 120px;
+      text-align: center;
+      float: left;
+      color: #6f6f6f;
+      font-size: 14px;
+  }
+  
+  .a_lang{
+      width: 85px;
+      text-align: center;
+      float: left;
+      color: #6f6f6f;
+      font-size: 14px;
+  }
+  
+  .a_rest
+  {
+      width: 150px;
+      text-align: center;
+      float: left;
+      color: #6f6f6f;
+      font-size: 14px;
+  }
+  
+  .a_user
+  {
+      width: 140px;
+      text-align: center;
+      float: left;
+      color: #6f6f6f;
+      font-size: 14px;
+  }
+  
+   .a_rest1
+  {
+      width: 175px;
+      text-align: center;
+      float: left;
+      color: #6f6f6f;
+      font-size: 14px;
+  }
+  
+  .a_user1
+  {
+      width: 160px;
+      text-align: center;
+      float: left;
+      color: #6f6f6f;
+      font-size: 14px;
+      
+  }
+  
+  .a_mail
+  {
+      width: 160px;
+      text-align: center;
+      float: left;
+      color: #6f6f6f;
+      font-size: 14px;
+  }
+  
+  .a_code
+  {
+      width: 45px;
+      text-align: center;
+      float: left;
+      color: #6f6f6f;
+      font-size: 14px;
+  }
+  
+  .a_ip
+  {
+      width: 100px;
+      text-align: center;
+      float: left;
+      color: #6f6f6f;
+      font-size: 14px;
+  }
+  
+  .a_date1
+  {
+      width: 90px;
+      text-align: center;
+      float: left;
+      font-size: 14px;
+      color: #6f6f6f;
+  }
+  
+  .a_rate
+  {
+      width: 40px;
+      text-align: center;
+      float: left;
+      color: #6f6f6f;
+      font-size: 14px;
+  }
+  
+  .a_icon{
+      width: 360px;
+      text-align: center;
+      float: left;
+      color: #6f6f6f;
+      font-size: 14px;
+  }
+  
+  .a_city{
+      width: 345px;
+      text-align: center;
+      float: left;
+      color: #6f6f6f;
+      font-size: 14px;
+  }
+  
+  .a_level{
+      width: 80px;
+      text-align: center;
+      float: left;
+      color: #6f6f6f;
+      font-size: 14px;
+  }
+  
+  .adm_table
+  {
+      width: 1058px;
+      margin: 0;
+      padding: 0; 
+      border-collapse:collapse;
+      float: left;
+      margin-bottom: 50px;
+  }
+  
+.tr_gray
+ {
+     width: 878px;
+     height: 37px;
+     background-color: #f1f1f1;
+ }
+ 
+ .tr_white
+ {
+     width: 878px;
+     height: 37px;
+     background-color: #fff;
+ }
+ 
+ .adm_table td
+  {
+    border-collapse:collapse; 
+    font-family: Arial;
+    font-size: 14px;
+  }
+  
+  
+  .title
+  {
+
+     width: 200px;
+     text-align: center;
+     float: left;
+  }
+  
+  .url
+  {
+     width: 250px;
+     text-align: center;
+     float: left;
+  }
+  
+  .meta_title
+  {
+     width: 220px;
+     text-align: center;
+     float: left;
+  }
+  
+   
+  .meta_kw
+  {
+      width: 200px;
+     text-align: center;
+     float: left;
+  }
+  
+ 
+  .title1
+  {
+      border-right: 1px solid #e8e8e8;
+     width: 200px;
+     text-align: center;
+  }
+  
+  .url1
+  {
+     border-right: 1px solid #e8e8e8;
+     width: 250px;
+     text-align: center;
+  }
+  
+  .meta_title1
+  {
+     border-right: 1px solid #e8e8e8;
+     width: 220px;
+     text-align: center;
+  }
+  
+  .meta_kw1
+  {
+      width: 200px;
+     text-align: center;
+  }
+  
+ .td1{
+     border-right: 1px solid #e8e8e8;
+     width: 42px;
+  }
+  
+.td1 input{
+     margin-left: 10px;
+  }
+  
+  .td2{
+     border-right: 1px solid #e8e8e8;
+     width: 63px;
+     text-align: center;
+  }
+  
+  .td3,.td4{
+     border-right: 1px solid #e8e8e8;
+     width: 340px;
+     text-align: center;
+  }
+  
+  .td5{
+     width: 80px;
+     text-align: center;
+  }
+  
+  .td3_icon_name
+  {
+     border-right: 1px solid #e8e8e8;
+     width: 410px;
+     text-align: center;
+  }
+  
+  .td3_cuisine_name
+  {
+     width: 670px;
+     padding-left: 98px !important;
+  }
+  
+  .td3_username
+  {
+      width: 345px;
+      border-right: 1px solid #e8e8e8;
+      text-align: center;
+  }
+  
+  .td3_lang{
+      width: 90px;
+      border-right: 1px solid #e8e8e8;
+      text-align: center;
+  }
+  
+  .td4_rest{
+      width: 160px;
+      border-right: 1px solid #e8e8e8;
+      text-align: center;
+  }
+  
+  .td5_user{
+      width: 130px;
+      border-right: 1px solid #e8e8e8;
+      text-align: center;
+  }
+  
+  .td6_mail{
+      width: 160px;
+      border-right: 1px solid #e8e8e8;
+      text-align: center;
+  }
+  
+  .td7_ip{
+      width: 100px;
+      border-right: 1px solid #e8e8e8;
+      text-align: center;
+  }
+  
+  .td8_date1{
+      width: 90px;
+      border-right: 1px solid #e8e8e8;
+      text-align: center;
+  }
+  
+  .td9_rate{
+      width: 60px;
+      text-align: center;
+  }
+  
+  .td9_code{
+      width: 75px;
+      text-align: center;
+  }
+  
+  .td4_email
+  {
+      width: 300px;
+      border-right: 1px solid #e8e8e8;
+      text-align: center;
+  }
+  
+  .td5_date
+  {
+      width: 120px;
+      text-align: center;
+      
+  }  
+  
+  .td4_icon
+  {
+     width: 355px;
+     text-align: center;
+  }
+  
+  .adm_table_conf
+  {
+      width: 172px;
+      float: left;
+      margin-left: 8px;
+  }
+  
+  .adm_table_conf div
+  {
+      margin-top: 5px;
+      padding-bottom: 5px;
+      float: left;
+  }
+  
+  .edit, .remove, .ed_rem{
+      color:#ca2e3c;
+      font-family: Arial;
+      font-size: 13px;
+      float: left;
+      font-weight: bold;
+      margin-top: 5px;
+      margin-left: 20px;
+      text-decoration:underline;
+      cursor: pointer;
+  }
+  
+  .configuration{
+      margin-top: 30px;
+      width: 224px;
+      background-color: #e6e6e6;
+      float: left;
+  }
+  
+.configuration ul
+{
+    float:left;
+    margin-left: 20px;
+    padding-bottom: 30px;
+}
+
+.configuration ul li
+{
+    margin-top: 20px;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-family: Arial;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.conf_active{
+    color:#000 !important;
+}
+
+.configuration ul li a
+{
+    text-decoration: none;
+    color: #787878;
+    display: block;
+    font-size: 15px;
+}
+
+.configuration ul li a:hover
+{
+    color:#000;
+}
+
+
+.conf_form{
+    float: left;
+    margin-left: 45px;
+    margin-top: 30px;
+    width: 560px;
+}
+
+.conf_form select{
+    width: 308px;
+    border: 1px solid #e4e4e4;
+    margin-bottom: 10px;
+    height: 37px;
+    outline: none;
+    text-align: center;
+    padding: 8px;
+}
+
+.conf_form_submit
+{
+    margin-top: 10px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 35px;
+    padding-right: 35px;
+    height: 34px;
+    cursor: pointer;    
+}
+
+#rest_sub
+{
+    margin-left: 150px;
+}
+
+.conf_form_submit:hover
+{
+    background-color: #4b4b4b;
+}
+
+.service_form
+{
+    width: 400px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 65px;
+}
+
+
+.service_form span,.conf_form label
+{
+    width: 125px;
+    color:#515151;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+    line-height: 37px;
+    text-align: right;
+    margin-right: 25px;
+}
+
+#searchSearchRestForm label
+{
+    width: 125px;
+    color:#515151;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+    line-height: 37px;
+    text-align: right;
+    margin-right: 25px;
+    margin-left: -150px;
+}
+
+.service_form label
+{
+    width: 125px;
+    color:#515151;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+    line-height: 37px;
+    text-align: right;
+    margin-right: 25px;
+}
+
+.submit input{
+    margin-top: 16px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 35px;
+    padding-right: 35px;
+    height: 34px;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.submit input:hover{
+    background-color: #4b4b4b;
+ }
+
+.conf_form_inp
+{
+    border: 1px solid #dfdfdf;
+    width: 190px;
+    padding-left: 10px;
+    height: 37px;
+    color: #515151;
+    margin-bottom: 10px;
+   
+    outline: none;
+}
+
+.conf_form_chb
+{
+    height: 37px;
+ }
+
+.service_inp, #RestaurantMenuFileName
+{
+    border: 1px solid #dfdfdf;
+    width: 190px;
+    padding-left: 10px;
+    height: 37px;
+    color: #515151;
+    margin-bottom: 10px;
+    float: left;
+    outline: none;
+}
+
+.service_serch{
+    width:38px;
+    height:37px;
+    border: 1px solid #dfdfdf;
+    background-image: url("images/search.jpg");
+    background-repeat: no-repeat;
+    float: left;
+    margin-left: 10px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+#serv_sub{
+    margin-left: 150px;
+}
+
+.service_form div
+{
+    margin-bottom: 20px;
+    float: left;
+}
+
+#cus_sub{
+    float: right;
+    margin-right: 135px;
+    margin-top: 5px;
+}
+
+#loc_sub{
+    float: right;
+    margin-right: 216px;
+    margin-top: 20px;
+}
+
+.service_form select{
+    width: 200px;
+    border: 1px solid #e4e4e4;
+    margin-bottom: 10px;
+    height: 37px;
+    outline: none;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.check_span
+{
+    width: 220px !important;
+    margin-left: -35px;
+}
+
+.check_span input
+{
+    float: left;
+    margin-left: 35px;
+    margin-top: 11px;
+}
+
+.check_span label
+{
+    float: left;
+    margin-left: 10px;
+}
+
+.check_div
+{
+    width: 230px;
+ }
+
+#usr_sub{
+    float: right;
+    margin-right: 216px;
+    margin-top: 0;
+}
+
+.pages{ 
+     margin-left: 250px;
+     float: none !important;
+     margin-bottom: 20px !important;
+     height: 60px;  
+     margin-right: 0 !important;
+     overflow: auto;
+     }
+ 
+ .pages a
+ {
+     margin-right: 6px;
+     text-decoration: none;
+     border: 1px solid #e6e6e6;
+     color: #949494;
+     font-family: Arial;
+     padding-bottom: 4px;
+     padding-top: 4px;
+     float: left;
+     padding-left: 9px;
+     padding-right: 8px;      
+ }
+ 
+ .pages a:hover{
+     color: #fff;
+     background-color: #cc121f;
+     border: 1px solid #cc121f !important;
+ }
+ 
+ .curr_page
+ {
+     background-color: #cc121f;
+     border: 1px solid #cc121f !important;
+     color: #fff !important;
+ }
+ 
+ .service_form textarea
+ {
+     width:310px;
+     padding: 10px;
+     height: 148px;
+     border: 1px solid #ebebeb;
+     margin-bottom: 10px;
+     color: #515151;
+     outline: none;
+ }
+ 
+#RestaurantPromotionRestPromEditEsForm textarea, #RestaurantPromotionRestPromEditCatForm textarea, #RestaurantPromotionRestPromEditEnForm textarea,
+#RestaurantVideoRestVidForm textarea, #RestaurantVideoRestEditForm textarea,  #ReviewEditRevForm textarea
+ {
+     width:180px;
+     padding: 10px;
+     height: 100px;
+     border: 1px solid #dfdfdf;
+     margin-bottom: 10px;
+     color: #515151;
+     outline: none;
+ }
+ 
+ #conf
+ {
+     padding-bottom: 250px;
+ }
+ 
+ .rest_conf
+ {
+     float: left;
+     height: 95px;
+     margin-top: 30px;
+     margin-left: 30px;
+ }
+ 
+ .arrows
+ {
+     display: block;
+     margin-top: 40px;
+     margin-right:25px;
+     float: left;
+ }
+ 
+ .numbers
+ {
+     width: 40px;
+     height: 40px;
+     float: left;
+     background-color: #000;
+     color: #fff;
+     font-family: Arial;
+     font-size: 22px;
+     line-height: 40px;
+     text-align: center;
+     margin-top: 25px;
+     margin-right: 30px;
+ }
+ 
+ .restaurant_name
+ {
+     font-family: arial;
+     font-size: 16px;
+     color: #3c3c3c;
+     line-height: 95px;
+     float: left;
+     text-decoration: none;
+     margin-right: 50px;
+ } 
+ 
+ .photo
+ {
+    background-color: #eeeeef;
+    border: 8px double #FFFFFF;
+    color: #383838;
+    float: left;
+    text-align: center;
+    width: 82px;
+    height: 85px;
+    line-height: 78px;
+    margin-top: -1px;
+    font-family: Arial;
+    font-size: 14px;
+    text-transform: uppercase;
+ }
+ 
+ .ed_rem
+ {
+     line-height: 80px;
+ }
+  
+ .arrows1
+ {
+     display: block;
+     margin-top: 30px;
+     margin-right:25px;
+     float: left;
+ }
+ 
+ .arrows2
+ {
+     display: block;
+     margin-top: 50px;
+     margin-right:25px;
+     margin-left: -37px;
+     float: left;
+ }
+ 
+ .ads_form{
+    width: 800px;
+    float: left;
+    margin-top: 50px;
+ }
+ 
+ .ads_form span
+{
+    width: 125px;
+    color:#515151;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+    line-height: 37px;
+    text-align: right;
+    margin-right: 25px;
+}
+ 
+ .ads_form select{
+    width: 350px;
+    border: 1px solid #e4e4e4;
+    margin-bottom: 10px;
+    height: 37px;
+    outline: none;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    float: left;
+    margin-right: 155px;
+}
+
+.ads_form input
+{
+    border: 1px solid #dfdfdf;
+    width: 600px;
+    height: 37px;
+    color: #515151;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+#adv_search
+{    width:38px;
+    height:37px;
+    border: 1px solid #dfdfdf;
+    background-image: url("images/search.jpg");
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+.photo_inp{
+    width: 218px !important;
+    float: left !important;
+}
+
+#adv_sub{
+    color:#fff;
+    width: 133px;
+    display: block;
+    margin-left: 150px;
+}
+
+.restaurant_title, .restaurant_link
+ {
+     font-family: arial;
+     font-size: 14px;
+     color: #000;
+     line-height: 95px;
+     float: left;
+     text-decoration: none;
+     margin-right: 150px;
+ } 
+ 
+ .ads_inp{
+    border: 1px solid #dfdfdf;
+    width: 310px !important;
+    margin-right: 300px;
+    padding-left: 10px;
+    height: 37px;
+    color: #515151;
+    margin-bottom: 10px;
+    float: left;
+    outline: none;
+ }
+ 
+ .ads_inp_photo{
+     border: 1px solid #dfdfdf;
+    width: 200px !important;
+    padding-left: 10px;
+    height: 37px;
+    color: #515151;
+    margin-bottom: 10px;
+    float: left;
+    outline: none;
+ }
+ 
+ .config_form{
+      width: 750px;
+      float: left;
+      margin-top: 50px;
+      margin-left: 50px;
+ }
+ 
+ .config_form span{
+    width: 190px;
+    color:#515151;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+    line-height: 37px;
+    text-align: right;
+    margin-right: 25px;
+ }
+ 
+ .conf_inp
+ {
+    border: 1px solid #dfdfdf;
+    width: 410px;
+    padding-left: 10px;
+    height: 37px;
+    color: #515151;
+    margin-bottom: 10px;
+    float: left;
+    outline: none;
+ }
+ 
+ #conf_textarea
+ {
+     width:400px;
+     padding: 10px;
+     height: 255px;
+     border: 1px solid #ebebeb;
+     margin-bottom: 10px;
+     color: #515151;
+     outline: none;
+ }
+ 
+ #conf_sub
+ {
+     margin-left: 210px;
+     margin-bottom: 50px;
+     float: left;
+ }
+ 
+ .prev_next{
+     float:left;
+ }
+ 
+ .logout{
+     float: right;
+     font-size: 15px;
+     margin-right: 40px;
+     margin-top: -42px;
+     font-family: Arial;
+     text-decoration: none;
+     color: #fff;
+ }
+ 
+ .logout:hover{
+     color: #F6CF59;
+ }
+ 
+ #searchSearchRestForm
+ {
+    width: 150px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 65px;
+ }
+ 
+ #CuisineAddCuisForm, #FoodAddFoodForm, #TagAddTagForm, #ProvinceAddProvForm, #RegionAddRegForm, #RegionAddCityForm,
+ #RegionAddDistForm, #UserAddUserForm, #adminsAddAdmUserForm, #LevelLevelForm, #LevelEditLevForm, #AdshomepageEditAdshomepageForm,
+ #UserEditUserForm, #AdminEditAdminForm, #ProvinceEditProvForm, #RegionEditRegForm, #CityEditCityForm, #DistrictEditDistForm,
+ #CuisineEditCuisForm, #FoodEditFoodForm, #TagEditTagForm, #CityAddCityForm, #DistrictAddDistForm, #RestaurantRestLocForm,
+ #RestaurantPhotoAddPhotoForm, #RestaurantPhotoModPhotoForm,#RestaurantServiceRestServForm,
+ #RestaurantMenuFileAddMenuNameForm, #EditMenuNameForm, #RestaurantPromotionRestPromEditEsForm, #RestaurantPromotionRestPromEditCatForm,
+ #RestaurantPromotionRestPromEditEnForm,#RestaurantVideoRestVidForm, #RestaurantVideoRestEditForm, #ReviewEditRevForm, #SlideshowEditSlideHomForm,
+ #SlideshowEditSlideForm
+ 
+ {
+    width: 410px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 65px;
+ }
+ 
+ 
+ #AdminIndexForm
+ {
+     width: 410px;
+    margin: 0 auto;
+    margin-top: 200px;
+ }
+ 
+#SlideshowShowResAdvForm
+ {
+    width: 410px;
+    float: left;
+    margin-left: 250px;
+    margin-top: 65px;
+ }
+ 
+  #RestaurantMenuRestMenuForm
+  {
+  
+    float: left;
+    margin-top: 65px;
+  }
+  
+  #SlideshowImage
+  {
+      margin-left: 150px;
+  } 
+  #RestaurantSidebarRestSidebarForm
+  {
+      margin-left: 50px;
+      margin-top: 50px;
+      float:left;
+      width: 400px;
+          
+  }
+  
+    #RestaurantSidebarRestSidebarForm fieldset
+    {
+        margin-left: 25px;
+        width: 335px;
+    }
+  
+    #RestaurantSidebarRestSidebarForm fieldset label
+    {
+        float: none !important;
+    }
+  
+    
+ #RestaurantHourReHourForm
+ {
+     float: left;
+     width: 410px;
+     margin-top: 50px;
+     margin-left: 50px;
+ }
+  
+#RestaurantPromotionRestPromForm
+  {
+    float: left;
+   /* margin-left: 250px; */
+  }
+  #RestaurantPromotionRestPromEditForm
+  {
+    float: left;
+    margin-left: 50px; 
+    margin-top: 35px;
+     width: 135px;
+    color: #515151;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+   
+    text-align: right;
+    margin-right: 25px;
+  }
+ 
+ #RestaurantPhotoPhoto{
+     margin-top: 10px;
+     margin-bottom: 20px;
+ }
+ 
+ #RestaurantRestConfigForm
+ {
+     width: 500px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 65px;
+ }
+ 
+ #RestaurantPhotoModPhotoForm img{
+     margin-left: 150px;
+     margin-bottom: 20px;
+ }
+ 
+ #SlideshowHomPgForm, #ConfigurationConfigForm
+ {
+    width: 600px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 65px;
+ }
+ 
+ #PagePageForm, #PageEditPagForm
+ {
+     width: 900px;
+     float: left;
+     margin-left: 50px;
+     margin-top: 65px;
+ }
+ 
+ #SlideshowHomPgForm label, #ConfigurationConfigForm label, #AdshomepageEditAdshomepageForm label, #UserEditUserForm label,
+ #RestaurantRestLocForm label, #RestaurantPhotoAddPhotoForm label, #RestaurantPhotoModPhotoForm label,  
+#RestaurantServiceRestServForm, #RestaurantMenuFileAddMenuNameForm label, #RestaurantMenuRestMenuForm label,#RestaurantPromotionRestPromForm label,
+#RestaurantPromotionRestPromEditEsForm label, #RestaurantPromotionRestPromEditCatForm label, #RestaurantPromotionRestPromEditEnForm label,
+#RestaurantVideoRestVidForm label, #RestaurantVideoRestEditForm label, #RestaurantHourReHourForm label,  #RestaurantSidebarRestSidebarForm label,
+  #ReviewEditRevForm label,#SlideshowShowResAdvForm label,  #AdminIndexForm label, #SlideshowEditSlideHomForm,#SlideshowEditSlideForm
+{
+    width: 135px;
+    color: #515151;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+    line-height: 37px;
+    text-align: right;
+    margin-right: 25px;
+ }
+ 
+ #RestPhotoRestPhotoForm
+{
+    
+    color: #515151;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+    line-height: 37px;
+   
+   
+ }
+ 
+ #EditMenuNameForm label
+ {
+     width: 125px;
+    color: #515151;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+    line-height: 37px;
+    text-align: right;
+    margin-right: 25px;
+    margin-top: 39px;
+ }
+ 
+ .prom_label
+ {
+     width: 125px;
+    color: #515151;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+    line-height: 37px;
+    text-align: right;
+    margin-right: 25px;
+    margin-top: 39px;
+ }
+ 
+ #EditMenuNameForm input{
+     margin-top: 39px;
+     
+ }
+ 
+ #EditMenuNameForm .submit{
+     margin-top: -29px;
+     margin-left: 227px;
+     float: left;
+ }
+  
+ 
+ #RestaurantServiceRestServForm input{
+     float: left;
+    margin-left: 60px;
+    margin-top: 11px;
+ }
+ 
+ #RestaurantPhotoPhotoAlt
+ {
+      border: 1px solid #dfdfdf;
+    width: 190px;
+    padding-left: 10px;
+    height: 37px;
+    color: #515151;
+    margin-bottom: 10px;
+    float: left;
+    outline: none;
+ }
+
+ .photo_table1 label
+ {
+     color: red;
+     width: 125px;
+color: #515151;
+font-family: Arial;
+font-size: 14px;
+font-weight: bold;
+float: left;
+line-height: 37px;
+text-align: right;
+margin-right: 25px;
+ }
+ 
+ .photo_table1 img{
+     margin-left: 150px;
+     margin-bottom: -10px;
+ }
+ 
+ #ConfigurationConfigForm label{
+     width: 150px !important;
+ }
+ 
+ #UserEditUserForm label,#AdminEditAdminForm label
+ {
+     width: 165px !important;
+ }
+ 
+ #UserEditUserForm .submit{
+     margin-left: 190px;
+ }
+ 
+ #PagePageForm label, #PageEditPagForm label
+ {
+     width: 150px;
+color: #515151;
+font-family: Arial;
+font-size: 14px;
+font-weight: bold;
+float: left;
+line-height: 37px;
+text-align: right;
+margin-right: 25px;
+ }
+ 
+ #ConfigurationStatisticsCode, #ConfigurationAdsCode
+ {
+     width: 400px;
+    padding: 10px;
+    height: 255px;
+    border: 1px solid #EBEBEB;
+    margin-bottom: 10px;
+    color: #515151;
+    outline: none;
+ }
+  
+ #SlideshowRestaurantId
+ {
+     width: 400px;
+     border: 1px solid #E4E4E4;
+    height: 37px;
+    margin-bottom: 10px;
+    outline: medium none;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    text-align: center;
+ }
+ 
+  #SlideshowHomPgForm .submit, #RestaurantPromotionRestPromEditEsForm .submit, #RestaurantPromotionRestPromEditCatForm .submit,
+  #RestaurantPromotionRestPromEditEnForm .submit, #RestaurantVideoRestVidForm .submit, #RestaurantHourReHourForm .submit,
+  #AdminIndexForm .submit
+  {
+      margin-left: 150px;
+  }
+ 
+ 
+ .ads_inp1{
+    border: 1px solid #dfdfdf;
+    width: 388px;
+    padding-left: 10px;
+    height: 37px;
+    color: #515151;
+    margin-bottom: 10px;
+    float: left;
+    outline: none;
+ }
+
+ #CuisineAddCuisForm span, #FoodAddFoodForm span, #TagAddTagForm span, #ProvinceAddProvForm span, #RegionAddRegForm span,
+ #RegionAddCityForm span, #RegionAddDistForm span, #UserAddUserForm span, #adminsAddAdmUserForm span, #AdshomepageAdsHomPgForm span,
+ #SlideshowHomPgForm span, #LevelLevelForm span, #LevelEditLevForm span, #AdminEditAdminForm span, #ProvinceEditProvForm span,
+ #RegionEditRegForm span, #CityEditCityForm span, #DistrictEditDistForm span, #CuisineEditCuisForm span, #FoodEditFoodForm span,
+ #TagEditTagForm span, #CityAddCityForm span,#DistrictAddDistForm span
+ {
+width: 125px;
+color: #515151;
+font-family: Arial;
+font-size: 14px;
+font-weight: bold;
+float: left;
+line-height: 37px;
+text-align: right;
+margin-right: 25px;
+}
+
+#RestaurantRestForm 
+{
+    margin-top: 60px;
+
+}
+
+
+.rest_inp{
+    border: 1px solid #dfdfdf;
+    width: 300px !important;    
+    padding-left: 10px;
+    height: 35px;
+    color: #515151;
+    margin-bottom: 10px;
+    float: left;
+    outline: none;
+}
+/*
+#RestaurantPromotionRestPromEditForm input{
+    border: 1px solid #dfdfdf;
+    width: 200px !important;    
+    padding-left: 10px;
+    height: 35px;
+    color: #515151;
+    margin-bottom: 10px;
+    float: left;
+    outline: none;
+}
+*/
+#RestaurantRestForm select{
+    border: 1px solid #dfdfdf;
+    width: 312px !important;    
+    padding-left: 10px;
+    height: 130px;
+    color: #515151;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+#RestaurantRestLocForm select, #RestaurantMenuRestMenuForm select, #RestaurantVideoRestVidForm select, #RestaurantVideoRestEditForm select,
+ #ReviewEditRevForm select,#SlideshowShowResAdvForm select 
+{
+    border: 1px solid #dfdfdf;
+    width: 200px !important;    
+    padding: 8px;
+    height: 35px;
+    color: #515151;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+
+#RestaurantMenuRestMenuForm input {
+    margin-left: 150px;
+    margin-bottom: 25px;
+}
+#RestPhotoRestPhotoForm input {
+    margin-left: 150px;
+    margin-bottom: 25px;
+}#RestPhotoRestPhotoForm
+
+.rest_photos{
+    float: left;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.rest_photos img{
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-bottom: -5px;
+}
+
+.rest_photos a
+{
+   color: #CA2E3C;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 13px;
+    
+}
+
+#RestaurantSlideshow
+{
+   width: 300px !important;
+}
+
+.browse_photos
+{
+    margin-top: 30px;
+    margin-left: -70px;
+}
+
+.browse_photos .submit
+{
+    margin-left: 150px;
+}
+
+#AdminEditAdminForm span 
+{
+    width: 165px !important;
+}
+
+
+ #CuisineAddCuisForm div, #FoodAddFoodForm div, #TagAddTagForm div
+ {
+     margin-bottom: 15px;
+     float: left;
+ }
+ #CuisineAddCuisForm .submit,  #FoodAddFoodForm .submit, #TagAddTagForm .submit, #ProvinceAddProvForm .submit,
+ #RegionAddRegForm .submit, #RegionAddCityForm .submit, #RegionAddDistForm .submit, #UserAddUserForm .submit, #CityEditCityForm .submit,
+ #DistrictEditDistForm .submit, #CuisineEditCuisForm .submit, #FoodEditFoodForm .submit, #TagEditTagForm .submit, #CityAddCityForm .submit, 
+ #DistrictAddDistForm .submit, #RestaurantRestLocForm .submit, #RestaurantPhotoModPhotoForm .submit,  #RestaurantMenuFileAddMenuNameForm .submit
+  {
+      float: left;
+      margin-left: 227px;
+  }
+
+  #adminsAddAdmUserForm .submit,  #RestaurantPhotoAddPhotoForm .submit
+  {
+      float: left;
+      margin-left: 75px;
+  }
+  
+   #LevelLevelForm .submit, #LevelEditLevForm .submit, #ProvinceEditProvForm .submit, #RegionEditRegForm .submit,  #RestaurantPhotoAddPhotoForm .submit, 
+#RestaurantVideoRestEditForm .submit,  #ReviewEditRevForm .submit, #SlideshowShowResAdvForm .submit
+  {
+      float: left;
+      margin-left: 150px;
+  }
+  
+  #RestaurantSidebarRestSidebarForm .submit{
+      float: left;
+      margin-left: 25px;
+  }
+
+   #ConfigurationConfigForm .submit,  #PagePageForm .submit, #PageEditPagForm .submit
+   {
+      float: left;
+      margin-left: 175px;
+  }
+  
+  
+#RegionProvinceId, #RegionRegionId, #RegionCityId
+{
+    width: 200px;
+    padding: 8px;
+}
+
+.form_ch_div, .form_ch_div1{
+    clear: both;
+    width: 250px;
+    margin-left: 150px;
+}
+
+.form_ch_div1{
+   
+    margin-left: 190px !important;
+}
+.for_array_phmen
+ {
+      
+      border: 1px solid #dfdfdf;
+    width: 190px;
+    padding-left: 10px;
+    height: 37px;
+    color: #515151;
+    margin-bottom: 10px;
+   
+    outline: none;
+ 
+ }
+.form_ch_div label, .form_ch_div1 label
+{
+    color: #515151;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 37px;
+    margin-right: 25px;
+    text-align: right;
+    width: 125px;
+    margin-left: 5px;
+}
+
+#ServiceImage input
+{
+    border: 1px solid #dfdfdf;
+    width: 310px !important;
+    margin-right: 300px;
+    padding-left: 10px;
+    height: 37px;
+    color: #515151;
+    margin-bottom: 10px;
+    float: left;
+    outline: none;
+}
+
+.td_name
+{
+    width: 500px;
+    padding-left: 100px;
+    border-right: 1px solid #e8e8e8;
+}
+
+.td_lev{
+    width: 100px;
+    padding-left: 100px;
+    padding-right: 70px;
+}
+
+.page_inp
+{
+    border: 1px solid #dfdfdf;
+    width: 300px;
+    padding-left: 10px;
+    height: 37px;
+    color: #515151;
+    margin-bottom: 10px;
+    float: left;
+    outline: none;
+    margin-right: 400px;
+}
+
+#PageContentEn_parent, #PageMetaDescriptionEn_parent, #PageContentEs_parent, #PageMetaDescriptionEs_tbl, #PageContentCat_tbl, #PageMetaDescriptionCat_tbl
+{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    float: left;
+}
+
+.photo_table,.photo_table1
+ { 
+    margin-top: 130px;
+}
+
+.photo_table td,.photo_table1 td
+{
+  
+  padding-bottom: 20px;
+}
+
+.new_photo
+{
+    margin-top: 60px;
+    position: absolute;
+    font-family: Arial;
+    color:#000;
+    font-size: 18px;
+    
+}
+
+
+.mod_photo, .rem_photo{
+    color: #CA2E3C;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+
+.photo_div
+{
+    float: left;
+    margin-left: 100px;
+        
+}
+
+.photo_div1
+{
+    float: left;
+    margin-left: 50px;
+    margin-top: -50px;    
+}
+
+.photo_div1 .submit
+{
+    margin-left: 150px;
+}
+
+.download_pdf{
+    margin-left: 85px;
+    font-family: Arial;
+    font-weight: bold;
+    color: #252525;
+}
+
+.pdf_menus
+{
+    margin-left: 80px;
+    float: left;
+    margin-top: 60px;
+}
+
+.menu_td1, .menu_td2{
+    width: 300px;
+    color: #515151;
+    float: left;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.menu_th
+{
+    padding-bottom: 40px;
+    padding-left: 65px;
+}
+
+.prom_label{
+    color: red
+}
+
+.activesed
+{
+    float: left;
+    line-height: 37px;
+    width: 635px;
+    font-family: Arial;
+    text-align: left;
+   
+}
+.activesed label
+{
+    float: none !important;
+}
+.activesserv
+{
+    float: left;
+    margin-left: 20px;
+    width: 635px;
+    font-family: Arial;
+    text-align: left;
+}
+.activesserv label
+{
+    float: left !important;
+}
+.activesph
+{
+    float: left;
+    margin-left: 100px;
+    width: 635px;
+    font-family: Arial;
+}
+.activesvid
+{
+    float: left;
+   
+    width: 635px;
+    font-family: Arial;
+}
+.activesvid label
+{
+    float: none !important;
+}
+.actives
+{
+    float: left;
+    margin-left: 150px;
+    width: 635px;
+    font-family: Arial;
+}
+
+.actives label
+{
+    float: none !important;
+}
+
+
+.video_table
+{
+    float: left;
+    margin-left: 100px;
+    margin-top: 80px;
+    font-family: Arial;
+    color:#515151;
+    font-weight: bold;
+}
+
+.video_td, .video_td1
+{
+    width: 250px;
+}
+
+.video_td
+{
+   padding-bottom: 20px;
+}
+
+.video_td1
+{
+   font-size: 14px !important
+}
+
+.video_edit
+{
+    margin-top: 40px;
+    margin-left: 300px;
+}
+
+.hour_table{
+   margin-bottom: 40px;
+   margin-left: 50px;
+   width: 550px;
+}
+
+.hour_table td{
+  width: 260px;
+  font-family: Arial;
+    color:#515151;
+ }
+
+.hour_td{
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.hour_td1{
+    font-weight: bold;
+    line-height: 26px;
+    float: left;
+    margin-top: -10px;
+    width: 130px !important;
+   }
+   
+#hour_td2 label{
+    font-weight: normal !important;
+    margin-top:-10px;
+    margin-left: -90px;
+    margin-right: 10px;
+ }
+ 
+ .rev_edit
+ {
+     margin-left: 250px;
+     margin-top: 20px;
+     margin-bottom: -20px;
+ }
+ 
+ .admin_link
+ {
+     margin: -180px 50px;
+     float: left;
+     color: #000;
+     font-size: 18px;
+ }
+ 
+legend
+{
+    font-size: 14px;
+}
+
+.browse_photos div{
+    float: left;
+}
+#RestaurantRestForm span
+{
+    float: none;
+}
+
+#AdminIndexForm .submit
+{margin-left: 160px;}
+label {float: left; font-size: 16px;font-weight: bold;margin-right: 5px;}
